@@ -7,27 +7,33 @@
 
 /* Ограничиваем ширину шапки и ставим по центру */
 .header {
+    width: 100%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    text-align: center; /* Центрируем текст внутри шапки */
 }
 
 /* Стили для центрального блока с контентом */
 .page__main {
+    width: 100%;
     max-width: 1200px;
-    margin-top: 50px; /* делаем отступ от шапки */
-    margin-bottom: 50px; /* отступ до подвала */
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center; /* Центрируем текст контента */
 }
 
 /* Стили для подвала сайта */
 .footer {
+    width: 100%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center; /* Центрируем текст в подвале */
 }
