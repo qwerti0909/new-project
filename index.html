@@ -1,22 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>Главная страница учебного проекта</title>
-    <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LENNI ART — Главная</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body class="page">
 
-    <header class="header">
-        <h1 class="header__title">Шапка сайта</h1>
-    </header>
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="header__logo">LENNI <span class="header__logo-red">ART</span></div>
+    <nav class="header__nav">
+      <a class="header__link" href="index.html">Главная</a>
+      <a class="header__link" href="events.html">Мероприятия</a>
+      <a class="header__link" href="event.html">Бронирование</a>
+    </nav>
+    <button class="header__button">Войти</button>
+  </header>
 
-    <main class="page__main">
-        <h2 class="page__subtitle">Основной контент страницы</h2>
-    </main>
+  <!-- Контент главной страницы -->
+  <main class="page__main">
+    <section class="promo">
+      <div class="promo__subtitle">Арт – пространство</div>
+      <h1 class="promo__big-title">LENNI</h1>
+      <p class="promo__description">Для людей, горящих сердцем и делом. Место для настоящего.</p>
+      
+      <div class="promo__action-text">Я хочу:</div>
+      <div class="promo__buttons">
+        <button class="btn btn--red">Провести мероприятие</button>
+        <button class="btn btn--white">Стать арендатором</button>
+      </div>
 
-    <footer class="footer">
-        <p class="footer__copy">&copy; 2026 Мой сайт</p>
-    </footer>
+      <button class="btn btn--black">О НАС</button>
+    </section>
+  </main>
+
+  <!-- Футер сайта -->
+  <footer class="footer">
+    <p class="footer__text">&copy; 2026 LENNI ART. Сделано по БЭМ.</p>
+  </footer>
 
 </body>
 </html>

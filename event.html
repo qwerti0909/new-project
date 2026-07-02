@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LENNI ART — Бронирование</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="page">
+
+  <header class="header">
+    <div class="header__logo">LENNI <span class="header__logo-red">ART</span></div>
+    <nav class="header__nav">
+      <a class="header__link" href="index.html">Главная</a>
+      <a class="header__link" href="events.html">Мероприятия</a>
+      <a class="header__link" href="event.html">Бронирование</a>
+    </nav>
+    <button class="header__button">Войти</button>
+  </header>
+
+  <main class="page__main">
+    <h2 class="booking-section-title">Бронирование площадки</h2>
+    
+    <!-- Форма на GridLayout -->
+    <form class="booking-grid">
+      <div class="booking-grid__field">
+        <label class="booking-grid__label">Имя</label>
+        <input class="booking-grid__input" type="text" placeholder="Введите имя">
+      </div>
+      
+      <div class="booking-grid__field">
+        <label class="booking-grid__label">Телефон</label>
+        <input class="booking-grid__input" type="tel" placeholder="+7 (999) 000-00-00">
+      </div>
+
+      <div class="booking-grid__field booking-grid__field--full">
+        <label class="booking-grid__label">Выберите дату и время</label>
+        <input class="booking-grid__input" type="text" placeholder="ДД.ММ.ГГГГ --:--">
+      </div>
+
+      <div class="booking-grid__field booking-grid__field--full">
+        <label class="booking-grid__label">Дополнительные пожелания</label>
+        <input class="booking-grid__input" type="text" placeholder="Количество гостей, формат мероприятия">
+      </div>
+
+      <div class="booking-grid__field booking-grid__field--full">
+        <button class="btn btn--red" type="button">Отправить заявку</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; 2026 LENNI ART. Сделано по БЭМ.</p>
+  </footer>
+
+</body>
+</html>
