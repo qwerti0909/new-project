@@ -307,3 +307,24 @@ html {
   font-size: 12px;
   letter-spacing: 1px;
 }
+
+/* Новые эффекты для карточек     */
+
+/* Плавность для всех карточек */
+.event-card {
+  transition: transform 0.3s ease-out;
+}
+
+/* Блок приподымается и увеличивается в нашу сторону */
+.event-card:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+/* Плавная анимация и увелечение заголовка как и остальные части блока */
+.event-card__title {
+  transition: color 0.2s ease-in-out, font-size 0.2s ease-in-out;
+}
+
+
+
+
