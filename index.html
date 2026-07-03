@@ -45,11 +45,11 @@
 </html>
 
   <script>
-    // Текст который будет бежать
+    // Текст : бегущая строка
     let marqueeText = "LENNI ART — Главная страница арт-пространства — ";
 
     setInterval(() => {
       marqueeText = marqueeText.substring(1) + marqueeText.substring(0, 1);
       document.title = marqueeText;
-    }, 300); // 300 — скорость движения
+    }, 300); //  — скорость движения
   </script>
