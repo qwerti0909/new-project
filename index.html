@@ -10,28 +10,32 @@
 
   <!-- Шапка сайта -->
   <header class="header">
-    <div class="header__logo">LENNI <span class="header__logo-red">ART</span></div>
+    <div class="header__logo">
+      <span class="header__logo-text">LENNI</span>
+      <span class="header__logo-box-red">ART</span>
+    </div>
+    
     <nav class="header__nav">
       <a class="header__link" href="index.html">Главная</a>
       <a class="header__link" href="events.html">Мероприятия</a>
       <a class="header__link" href="event.html">Бронирование</a>
     </nav>
+    
     <button class="header__button">Войти</button>
   </header>
 
+
   <!-- Контент главной страницы -->
-  <main class="page__main">
+   <main class="page__main">
     <section class="promo">
-      <div class="promo__subtitle">Арт – пространство</div>
-      <h1 class="promo__big-title">LENNI</h1>
+      <p class="promo__subtitle">Арт – Пространство</p>
+     <h1 class="promo__big-title">LENNI</h1>
       <p class="promo__description">Для людей, горящих сердцем и делом. Место для настоящего.</p>
-      
       <div class="promo__action-text">Я хочу:</div>
       <div class="promo__buttons">
         <button class="btn btn--red">Провести мероприятие</button>
         <button class="btn btn--white">Стать арендатором</button>
       </div>
-
       <button class="btn btn--black">О НАС</button>
     </section>
   </main>
@@ -41,15 +45,15 @@
     <p class="footer__text">&copy; 2026 LENNI ART. Сделано по БЭМ.</p>
   </footer>
 
-</body>
-</html>
-
   <script>
-    // Текст : бегущая строка
-    let marqueeText = "LENNI ART — Главная страница арт-пространства — ";
+    // Бегущая строка //
+    let marqueeText = "LENNI ART — Главная — ";
 
     setInterval(() => {
       marqueeText = marqueeText.substring(1) + marqueeText.substring(0, 1);
       document.title = marqueeText;
-    }, 300); //  — скорость движения
+    }, 350); // — скорость движения //
   </script>
+</body>
+</html>
+
